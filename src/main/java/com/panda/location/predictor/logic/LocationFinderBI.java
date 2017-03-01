@@ -19,7 +19,7 @@ import com.panda.location.predictor.pojo.ResponseBody;
 @Service
 public class LocationFinderBI {
 	
-	private static final Logger log = LoggerFactory.getLogger(FinderController.class);
+	private static final Logger log = LoggerFactory.getLogger(LocationFinderBI.class);
 	
 	private static final String SCHEME = "https";
 	private static final String ZOMATO_HOST = "developers.zomato.com";
